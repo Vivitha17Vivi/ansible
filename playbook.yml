@@ -1,5 +1,5 @@
-- name: Pull image and Run {{ 10.87.1.205}} Container
-  hosts: "{{ 10.87.1.205 }}"
+- name: Pull image and Run {{ host }} Container
+  hosts: "{{ host }}"
   gather_facts: false
   become: yes
 
