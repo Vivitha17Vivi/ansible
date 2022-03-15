@@ -1,5 +1,5 @@
-- name: Pull image and Run {{ host }} Container
-  hosts: "{{ host }}"
+- name: Pull image and Run Container
+  hosts: fea.polaris.saint-gobain.com
   gather_facts: false
   become: yes
 
