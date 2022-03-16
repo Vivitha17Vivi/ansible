@@ -1,5 +1,5 @@
 - name: Pull image and Run Container
-  hosts: featureui
+  hosts: fea.polaris.saint-gobain.com
   gather_facts: false
   become: yes
 
