@@ -1,5 +1,5 @@
 - name: Pull image and Run Container
-  hosts: featureui
+  hosts: 10.87.1.205
   gather_facts: false
   become: yes
 
